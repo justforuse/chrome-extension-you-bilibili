@@ -2,12 +2,13 @@
 // @name         You bilibili
 // @namespace    http://tampermonkey.net/
 // @homepage     https://github.com/justforuse/chrome-extension-you-bilibili
-// @version      0.1
+// @version      0.2
 // @description  Provide useful keyboard shortcuts for bilibili, for now is speed and subtitle control, like Youtube does.
 // @author       Allen(https://github.com/justforuse)
 // @include      http*://*bilibili.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 ;(function () {
