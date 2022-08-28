@@ -8,7 +8,8 @@
   font-size: 20px;
   padding: 8px 20px;
   text-align: center;
-  /* animation: ybl-fade .5s linear; */
+  color: white;
+  animation: ybl-fade .5s linear;
 }
 
 @keyframes ybl-fade {
