@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 ;(function () {
-  const videoContainer = document.querySelector('#playerWrap')
+  const videoContainer = document.querySelector('#playerWrap .bpx-player-container')
   let video
   let isReady = false
 
@@ -19,7 +19,7 @@
     const link = document.createElement('link')
     link.rel = 'stylesheet'
     link.type = 'text/css'
-    link.href = 'https://rawcdn.githack.com/justforuse/chrome-extension-you-bilibili/a1f19ee83bf40aec08880db214af1f2f10cec8f7/after.css'
+    link.href = 'https://raw.githack.com/justforuse/chrome-extension-you-bilibili/master/after.css'
     const head = document.querySelector('head')
     head.appendChild(link, null)
   }
