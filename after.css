@@ -1,0 +1,27 @@
+.ybl-speed-toast {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,.7);
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 8px 20px;
+  text-align: center;
+  /* animation: ybl-fade .5s linear; */
+}
+
+@keyframes ybl-fade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

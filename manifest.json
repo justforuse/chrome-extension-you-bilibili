@@ -1,0 +1,21 @@
+{
+  "name": "You bilibili",
+  "description": "Add keyboard shortcuts to Bilibili like Youtube",
+  "homepage_url": "https://github.com/justforuse/chrome-extension-you-bilibili",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "run_at" : "document_end",
+      "js": ["after.js"],
+      "css": ["after.css"],
+      "matches": [
+        "https://*.bilibili.com/*",
+        "http://*.bilibili.com/*"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "http://bilibili.com/*"
+  ]
+}
